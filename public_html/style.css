@@ -1,0 +1,68 @@
+.name-button {
+    font-family: Calibri;
+    font-size: 30px;
+}
+
+span {
+    font-weight: bold;
+    color: cyan;
+}
+
+.btn {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+p{
+    font-size: 20px;
+}
+@media screen and (min-width: 768px) {
+    .intro-section {
+        background-image: url("images/SandiaMountains.jpeg") !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        background-position: center center !important;
+        color: white;
+        position: relative;
+        height: 100%;
+        padding-top: 380px !important;
+        padding-bottom: 120px !important;
+        text-align: center;
+        background: white;
+    }
+}
+
+.welcome-large {
+    font-size: 60px;
+}
+
+.MadalynnABQ.jpg {
+    padding: 30px;
+    height: 275px;
+    width: 275px;
+}
+
+.section-title {
+    margin-bottom: 0 !important;
+}
+
+.col-md-6 {
+    padding-top: 30px;
+}
+
+
+
+.bg::before {
+
+    /*background-image: linear-gradient(rgba(15, 117, 189, 0.5), rgba(43, 83, 112, 1))*/
+    content: "";
+    background-image: url("./images/blue-cascade-background.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.5;
+    background-position: bottom;
+}
