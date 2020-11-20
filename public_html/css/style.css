@@ -1,10 +1,8 @@
 body {
-    background: #3ABDFF;
-    background: -moz-linear-gradient(-45deg, #3ABDFF 0%, #1E93FF 38%, #FFFEFC 100%);
-    background: -webkit-linear-gradient(-45deg, #3ABDFF 0%, #1E93FF 38%, #FFFEFC 100%);
-    background: linear-gradient(135deg, #3ABDFF 0%, #1E93FF 38%, #FFFEFC 100%);
-}
-
+    background: #FFFCFA;
+    background: -moz-linear-gradient(top, #FFFCFA 0%, #FFFCE9 38%, #FFCF9A 100%);
+    background: -webkit-linear-gradient(top, #FFFCFA 0%, #FFFCE9 38%, #FFCF9A 100%);
+    background: linear-gradient(to bottom, #FFFCFA 0%, #FFFCE9 38%, #FFCF9A 100%);
 }
 .welcome-large{
     font-size: 40px;
@@ -42,8 +40,8 @@ ul.nav li.active a {
 }
 .jumbotron {
     background-color: rgb(233, 174, 174);
-
 }
+
 .fontDancingScript {
     font-size: 100px;
     font-family: 'Dancing Script', cursive;
@@ -57,11 +55,14 @@ ul.nav li.active a {
 Contact Me Form
  */
 .bgLightOrange {
-    background-color: rgba(230,146,28,1);
+    background: #FFECDE;
+    background: -moz-linear-gradient(top, #FFECDE 0%, #FFF6E9 38%, #FFC5C3 100%);
+    background: -webkit-linear-gradient(top, #FFECDE 0%, #FFF6E9 38%, #FFC5C3 100%);
+    background: linear-gradient(to bottom, #FFECDE 0%, #FFF6E9 38%, #FFC5C3 100%);
 }
 
 .img-fluid {
-    border: red solid;
+    border: yellow solid;
                   }
 
 
